@@ -10,6 +10,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+
+<meta name="viewpoint" content="width=device-width,initial-scale=1">
 <title></title>
 </head>
 <style>
@@ -18,13 +22,45 @@
         text-align: right;
         font-family: 'raleway',sans-serif;
     }
-    .homepage-container{
+    .homepage-container,.timeline-container{
         
         padding-top: 150px;
         padding-left: 50px;
         padding-bottom: 80px;
         font-family: 'raleway',sans-serif;
-        background-color:white;
+        background-color: white;
+    }
+    .contact-container{
+        
+        padding-top: 75px;
+        padding-left: 50px;
+        padding-bottom: 80px;
+        font-family: 'raleway',sans-serif;
+        background-color: white;
+        
+    }
+    .info-container{
+        padding-top: 0px;
+        padding-left: 50px;
+        padding-bottom: 80px;
+        font-family: 'raleway',sans-serif;
+        background-color: white;
+        
+
+    }
+    .project-container,.name-container{
+        padding-top: 150px;
+        padding-left: 50px;
+        padding-bottom: 80px;
+        font-family: 'raleway',sans-serif;
+        /*background-color: ;*/
+
+    }
+    .name-container{
+        padding-top: 0px;
+        padding-left: 50px;
+        padding-bottom: 80px;
+        font-family: 'raleway',sans-serif;
     }
     body{
         background-color: rgba(229, 226, 226,0.3);
@@ -37,7 +73,7 @@
         font-size:100px;
         font-family: sans-serif;
     }
-    img{
+    #img{
         
         
         border-radius: 100%;
@@ -64,8 +100,42 @@
         text-align: center;
         
     }
+    #h2{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #h3{
+        padding-bottom: 20px;
+    }
+    .contact{
+        padding-top: 150px;
+    }
+    .project-name{
         
+    }   
+    #contact{
+        text-align: left;
+        padding-top: 30px;
+    }
+    .fab{
+        padding: 8px;
+        text-decoration: none;
+        margin: 5px 5px;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+    .edu-info{
+        padding-left: 20px;
+        border-bottom: 1px solid rgba(236, 227, 227,0.3);
+        border-width: thin;
+        
+    }
+    .fa{
+        padding-top: 15px;
+        align-items: right: ;
+    }
 </style>
+
 <body>
    <!--- <header>
         <div class="header">
@@ -102,9 +172,133 @@
                     <p id="aboutme"><h2><small>I am Yashika, III-Year undergrad student. I am member of Computer Society of India,Bharati Vidyapeeth Pune. I have worked on some Flutter and Django projects, participated in various Hackathons and have also pursued some certification courses from various platforms.<br>Currently developing my tech and designing skills so as to erupt the best!</small></h2></p>
                 </div> 
                 <div class="col-md-4 ">
-                    <center><img src="pp.jpeg" height="250" width="250" ></center>
+                    <center><img src="pp.jpeg" height="250" width="250" id="img"></center>
                 </div> 
             </div>
         </div>
     </div>
+    <br><br><br>
+    <div class="timeline">
+        <div class="container-fluid timeline-container">
+            <div class="row nav-bar2">
+                <div class="col-md-8">
+                    <b>All My Trek</b>
+                </div>
+            </div>
+            <div class="row nav-bar3">
+                <div class="col-md-8">
+                    <h2>Education</h2>
+                </div>
+            </div>
+            <div class="row nav-bar4">
+                <div class="col-md-2 col-md-offset-1">
+                    <i class="fa fa-snowflake-o" style="font-size: 25px;"></i>
+                </div>
+                <div class="col-md-9 edu-info" >
+                    <h4>2004-2018</h4>
+                    <h3>High School</h3>
+                    <h3><small>I did my High School from Scindia Kanya Vidyalaya, Gwalior</small></h3>
+                </div>
+            </div>
+            <div class="row nav-bar5">  
+                <div class="col-md-2 col-md-offset-1">
+                    <i class="fa fa-snowflake-o" style="font-size: 25px;"></i>
+                </div>
+                <div class="col-md-9 edu-info" >
+                    <h4>2018-current</h4>
+                    <h3>Bachelor of Technology in Computer Engineering</h3>
+                    <h3><small>I am pursuing my B.Tech degree from Bharati Vidyapeeth, pune</small></h3>
+                </div>
+            </div>
+            <div class="row nav-bar6">
+                <div class="col-md-8">
+                    <h2>Experience</h2>
+                </div>
+            </div>
+            <div class="row nav-bar7">
+                <div class="col-md-2 col-md-offset-1">
+                    <i class="fa fa-snowflake-o" style="font-size: 25px;"></i>
+                </div>
+                <div class="col-md-9 edu-info" >
+                    <h4>2018</h4>
+                    <h3>Pulzion'18</h3>
+                   <!--- <h3><small>I did my High School from Scindia Kanya Vidyalaya, Gwalior</small></h3>-->
+                </div>
+            </div>
+            <div class="row nav-bar8">   
+                <div class="col-md-2 col-md-offset-1">
+                    <i class="fa fa-snowflake-o" style="font-size: 25px;" ></i>
+                </div>
+                <div class="col-md-9 edu-info" >
+                    <h4>2019</h4>
+                    <h3> Bharatiyam Hackathon 2k19</h3>
+                    <!--<h3><small>I am pursuing my B.Tech degree from Bharati Vidyapeeth, pune</small></h3>-->
+                </div>
+            </div>
+            <div class="row nav-bar9">  
+                <div class="col-md-2 col-md-offset-1">
+                    <i class="fa fa-snowflake-o" style="font-size: 25px;" ></i>
+                </div>
+                <div class="col-md-9 edu-info" >
+                    <h4>2020</h4>
+                    <h3>Hackathon - CSI State Level Student Convention</h3>
+                    <!--<h3><small>.</small></h3>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project">
+        <div class="container-fluid project-container">
+            <div class="row nav-bar10">
+                <div class="col-md-8">
+                    <b id="h2">My Projects</b>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-name">
+        <div class="container-fluid name-container">
+            <div class="row nav-bar11">
+                        <div class="col-md-6 text-center">
+                            <img src="laptop.png" width="450" height="250">
+                            <h2 class="project-name">Google Search Script</h2>
+                            <h2><small><p class="content">I wanted to search few contents on Google Chrome,so instead of typing the content everytime I wrote the script which once triggered automatically starts the searches and loads the content for me.</small></h2>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <img src="laptop.png" width="450" height="250">
+                            <h2 class="project-name">Video Downloader</h2>
+                            <h2><small><p class="content">Instead of everytime going through the videos so as to download them, i wrote this script which automated my downloader to download the desired videos ones the script is triggered by the user.</small></h2>
+                        </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="container-fluid contact-container">
+            <div class="row nav-bar12">
+                <div class="col-md-6">
+                    <b id="h3">Contact Me</b>
+
+                </div>
+                
+            </div>   
+        </div>
+    </div>
+    <div class="contact-info">
+        <div class="container-fluid info-container">
+            <div class="row nav-bar13">
+                <div class="col-md-6 ">
+                    <h2 id="contact"><small><p>I would love to learn more and whack new projects and ideas, Just send me a note and let's get into a project. </small></h2>
+                </div>
+                <div class="col-md-3 col-md-offset-3">
+                    <center><i class="fab fa-instagram" style="font-size:36px" id="insta"></i><br>
+                        <i class="fab fa-github" style="font-size:36px" id="fb"></i><br>
+                        <i class="fab fa-twitter" style="font-size:36px" id="tw"></i><br>
+                        <i class="fab fa-linkedin" style="font-size:36px" id="wa"></i><br>
+                        <i class="fab fa-facebook" style="font-size: 36px;"></i>
+                    </center>
+                </div>    
+            </div>
+        </div>
+    </div>        
 </body>
